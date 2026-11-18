@@ -22,7 +22,6 @@ export default function Hero() {
         <div className="now rise">
           <div><b><span className="dot"></span>Open to work</b><span>Fresher roles, 2027 batch</span></div>
           <div><b>Final year</b><span>B.Tech CSE, JIS University</span></div>
-          <div><b>Also preparing</b><span>GATE 2027 for M.Tech</span></div>
         </div>
       </div>
     </header>

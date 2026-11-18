@@ -22,6 +22,7 @@ export default function Projects() {
                 <h3>{p.title}</h3><span className="plus" aria-hidden="true">+</span>
               </button>
               <div className="body"><div><div className="in">
+                <a href={p.link} target="_blank" rel="noopener noreferrer">View on GitHub</a>
                 <p>{p.desc}</p>
                 <div className="tags">{p.tags.map(t => <span className="tag" key={t}>{t}</span>)}</div>
               </div></div></div>
